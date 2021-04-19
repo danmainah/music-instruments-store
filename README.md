@@ -1,10 +1,10 @@
-<h2><b>Week 3; Using Bootstrap</b></h2>
+<h2><b>Music-Instruments Store</b></h2>
 <hr>
-<p>The assignment is to clone a Newsweek page.</p>
+<p>The assignment is to build a e-commerce website with homepage and search result page.</p>
 <hr>
 <img src="https://user-images.githubusercontent.com/42869046/114411509-e8f94180-9bb4-11eb-9fab-f0fb39337380.PNG">
 <br>
-<p>The general purpose of the project was to practice use of bootstrap in web design.</p><br>
+<p>The general purpose of the project was to practice use of Flexbox and capacity to build a responsive website.</p><br>
 <h3><b>Built with</b></h3>
 <hr>
 <ul>
