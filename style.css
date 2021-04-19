@@ -6,6 +6,12 @@
   font-family: 'Montserrat',sans-serif;
 }
 
+a {
+    color: #dedee9;
+    text-decoration: none; /* no underline */
+  }
+  
+ 
 body {
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     font-size: 1rem;
@@ -115,12 +121,17 @@ background-color:#D35266;
    }
 
    /* carrosel section */
-
-   .carousel img{
-       height:15rem;
-       width: 15rem;
-   }
+.carousel img{
+    height:15rem;
+    width: 15rem;
+}
     
+.guitar img{
+    height: 10rem;
+    width: auto;
+}
+
+/* categories section */
 @media all and (max-width: 720px){
   nav{
     padding: 5px ;
