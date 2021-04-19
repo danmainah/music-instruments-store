@@ -15,7 +15,7 @@
     <header>
         <nav CLASS=" sticky-top m-0">
             <ul>
-                <li class="logo" ><a href="#"><img src="img/logom.jpg" alt="">MUSIKA SHOP</a></li>
+                <li class="logo" ><a href="#"><img src="img/logom.jpg" alt="">MUSIKA </a></li>
                 <li class="items "><a href="#"><i class="fas fa-home"></i>CATEGORIES</a></li>
                 <li class="items"><a href="#">CATEGORIES</a></li>
                 <li class="items"><a href="#">PURCHASE LIST</a></li>
@@ -36,16 +36,40 @@
               });
             });
         </script>
+        <div class="lower-header text-white container p-2">
+            <div class="text-center">
+                <h1 class="gotham-bold">MUSIKA SHOP</h1>
+                <h2 class="font-weight-light gotham-light">Buying And Selling couldn't be simpler than this</h2>
+            </div>
+            
+            <div class="search-section my-5 justify-content-center">
+                <form action="search.html">
+                    <div class="container form">
+                        <div class="d-flex justify-content-center">
+                            <select class="form-select rounded-0 w-50 border-danger" aria-label="Default select example">
+                                <option selected>All Categories</option>
+                                <option value="1">Guitars</option>
+                                <option value="2">Piano</option>
+                                <option value="3">Drums</option>
+                              </select>
+                            <input type="email" class="form-control form-input rounded-0 w-75 border-danger" placeholder="Drums">
+                            <input type="email" class="form-control form-input rounded-0 w-75 border-danger" placeholder="Nairobi">
+                            <button type="submit" class="ml-4 btn btn-submit-search rounded-0 border-0">SEARCH</button>
+                        </div>
+                      </div>
+                  </form>
+            </div>
+        </div>
           <!-- carousel section -->
           <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner ">
                 <h4 class="flex justify-content-center  row text-dark ">Deals of the Week</h4>
               <div class="carousel-item active flex justify-content-center  row">
-                <div class="item  row  flex justify-content-center border">
-                    <div class="col-md-3">
+                <div class="item  row  flex justify-content-center border ">
+                    <div class="col-md-4 col-lg-3">
                         <img src="img/drums-640x477.jpeg" alt=""> 
                     </div>
-                    <div class="col-md-4 text-wrap">
+                    <div class="col-md-6 col-lg-4 text-wrap">
                         <h4>Drum Set</h4>
                         <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et eros nec tellus pulvinar fringilla. Etiam non orci sit amet velit imperdiet ornare id sed leo.</p>
                         <h6>Made by Yahama</h6>
@@ -56,10 +80,10 @@
               </div>
               <div class="carousel-item  row">
                 <div class="item  row  flex justify-content-center border">
-                    <div class="col-md-3">
+                    <div class="col-md-4 col-lg-3">
                         <img src="img/drums-640x477.jpeg" alt=""> 
                     </div>
-                    <div class="col-md-4 text-wrap">
+                    <div class="col-md-6 col-lg-4 text-wrap">
                         <h4>Drum Set</h4>
                         <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et eros nec tellus pulvinar fringilla. Etiam non orci sit amet velit imperdiet ornare id sed leo.</p>
                         <h6>Made by Yahama</h6>
@@ -71,10 +95,10 @@
               </div>
               <div class="carousel-item">
                 <div class="item  row  flex justify-content-center border">
-                    <div class="col-md-3">
+                    <div class="col-md-4 col-lg-3">
                         <img src="img/drums-640x477.jpeg" alt=""> 
                     </div>
-                    <div class="col-md-4 text-wrap">
+                    <div class="col-md-6 col-lg-4 text-wrap">
                         <h4>Drum Set</h4>
                         <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et eros nec tellus pulvinar fringilla. Etiam non orci sit amet velit imperdiet ornare id sed leo.</p>
                         <h6>Made by Yahama</h6>
@@ -93,6 +117,7 @@
               <span class="bg-danger">&#11166</span>
             </button>
           </div>
+        
     </header>
     <!-- categories -->
     <!-- guitars -->
