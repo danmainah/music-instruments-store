@@ -128,13 +128,18 @@ background-color:#D35266;
     
 .guitar img{
     height: 10rem;
-    width: auto;
+    width: 8rem;
 }
+
 
 /* categories section */
 .mx-auto{
 max-width: 73%;
 } 
+
+.bg-color{
+background-color: #888888;
+}
 
 @media all and (max-width: 720px){
   nav{
