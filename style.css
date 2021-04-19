@@ -87,6 +87,9 @@ nav ul li.btn{
 nav ul li.btn.hide i:before{
   content: '\f00d';
 }
+.bg-head{
+background-color: #D35266;
+}
 
 .button{
 background-color:#D35266;
