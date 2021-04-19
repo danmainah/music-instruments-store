@@ -6,9 +6,17 @@
   font-family: 'Montserrat',sans-serif;
 }
 
+body {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+}
+/* navbar styling */
 nav{
-  background: #151515;
-  padding: 5px 40px;
+  background: #383838;
 }
 nav ul{
   list-style: none;
@@ -18,7 +26,6 @@ nav ul{
   justify-content: center;
 }
 nav ul li{
-  padding: 15px 0;
   cursor: pointer;
 }
 nav ul li.items{
@@ -28,6 +35,11 @@ nav ul li.items{
   text-align: center;
   order: 3;
 }
+nav ul li .admin{
+    display: flex;
+    justify-content: right;
+}
+
 nav ul li.items:after{
   position: absolute;
   content: '';
@@ -35,7 +47,7 @@ nav ul li.items:after{
   bottom: 5px;
   height: 2px;
   width: 100%;
-  background: #33ffff;
+  background: #888888;
   opacity: 0;
   transition: all 0.2s linear;
 }
@@ -53,15 +65,15 @@ nav ul li.logo{
 }
 nav ul li a{
   color: white;
-  font-size: 18px;
+  font-size: 1rem;
   text-decoration: none;
   transition: .4s;
 }
 nav ul li:hover a{
-  color: cyan;
+  color:#888888;
 }
 nav ul li i{
-  font-size: 23px;
+  font-size: 1rem;
 }
 nav ul li.btn{
   display: none;
@@ -69,9 +81,49 @@ nav ul li.btn{
 nav ul li.btn.hide i:before{
   content: '\f00d';
 }
-@media all and (max-width: 900px){
+
+.button{
+background-color:#D35266;
+ }
+ 
+.fas {
+     color:#D35266;
+ }
+ 
+ .logo img{
+     height: 1rem;
+     width: 1.5rem;
+     padding-right: .1rem;
+ }
+ 
+ i .adm {
+     display:block;
+     width:50px;
+     height: 50px;
+     border-radius: 50px;
+     font-size: 25px;
+     text-align: center;
+     margin-right: 10px;
+     background: #fff;
+     line-height: 1.7em;
+   }
+ 
+   i .adm img{
+     display:inline-block;
+     width: 1rem;
+     height: .7rem;
+   }
+
+   /* carrosel section */
+
+   .carousel img{
+       height:15rem;
+       width: 15rem;
+   }
+    
+@media all and (max-width: 720px){
   nav{
-    padding: 5px 30px;
+    padding: 5px ;
   }
   nav ul li.items{
     width: 100%;
@@ -85,16 +137,11 @@ nav ul li.btn.hide i:before{
   }
   nav ul li.items:hover{
     border-radius: 5px;
-    box-shadow: inset 0 0 5px #33ffff,
-                inset 0 0 10px #66ffff;
+    box-shadow: inset 0 0 5px #888888,
+                inset 0 0 10px #888888;
   }
   nav ul li.items:hover:after{
     opacity: 0;
   }
 }
 
-.logo img{
-    height: 1rem;
-    width: 1.5rem;
-    padding-right: .1rem;
-}
