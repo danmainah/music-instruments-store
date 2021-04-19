@@ -4,33 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Musik</title>
+    <title>MUSIKA SHOP</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <nav>
-            <ul class="menu">
-                <li class="logo"><img src="img/logo.jpg" alt=""><a href="#">MUsika</a></li>
-                <li class="item"><a href="#">Home</a></li>
-                <li class="item"><a href="#">Categories</a></li>
-                <li class="item"><a href="#">Purchase List</a></li>
-                <li class="item button"><a href="#">Post AN AD</a></li>
-                <li class="item admin">
+        <nav CLASS=" sticky-top mt-0">
+            <ul>
+                <li class="logo" ><a href="#"><img src="img/logo.jpg" alt="">MUSIKA SHOP</a></li>
+                <li class="items"><a href="#">CATEGORIES</a></li>
+                <li class="items"><a href="#">PURCHASE LIST</a></li>
+                <li class="items button"><a href="#">Post AN AD</a></li>
+                <li class="items admin">
                     <a class="nav-link mx-3 d-lg-none d-sm-block" href="#">
                         <i class="far fa-envelope mr-3"></i> Admin <i class="fas fa-user-circle ml-3"></i>
                     </a>
                 </li>
-                <li class="item has-submenu">
-                    <a tabindex="0">Services</a>
-                    <ul class="submenu">
-                        <li class="subitem"><a href="#">Design</a></li>
-                        <li class="subitem"><a href="#">Development</a></li>
-                        <li class="subitem"><a href="#">SEO</a></li>
-                        <li class="subitem"><a href="#">Copywriting</a></li>
-                    </ul>
-                </li>
+                <li class="btn"><a href="#"><i class="fas fa-bars"></i></a></li>
             </ul>
         </nav>
+        <script>
+            $(document).ready(function(){
+              $('.btn').click(function(){
+                $('.items').toggleClass("show");
+                $('ul li').toggleClass("hide");
+              });
+            });
+        </script>
     </header>
     
 </body>
