@@ -132,6 +132,10 @@ background-color:#D35266;
 }
 
 /* categories section */
+.mx-auto{
+max-width: 73%;
+} 
+
 @media all and (max-width: 720px){
   nav{
     padding: 5px ;
