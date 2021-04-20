@@ -28,9 +28,8 @@ nav {
 nav ul {
   list-style: none;
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 nav ul li {
@@ -38,10 +37,10 @@ nav ul li {
 }
 
 nav ul li.items {
-  position: relative;
+  display: block;
+  align-content: left;
   width: auto;
-  margin: 0 16px;
-  text-align: center;
+  margin: 0 9px;
   order: 3;
 }
 
@@ -67,7 +66,7 @@ nav ul li.items:hover::after {
   bottom: 8px;
 }
 
-nav ul li.logo {
+nav ul li.logo{
   flex: 1;
   color: white;
   font-size: 23px;
@@ -108,11 +107,7 @@ nav ul li.btn.hide i::before {
   content: '\f00d';
 }
 
-.bg-head {
-  background-color: #d35266;
-}
-
-.button {
+.bg-head ,.button {
   background-color: #d35266;
 }
 
