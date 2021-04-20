@@ -182,6 +182,9 @@ footer {
   color: #383838;
 }
 
+.icon-red {
+  color:#d35266;
+}
 /* categories section */
 .mx-auto {
   max-width: 73%;
