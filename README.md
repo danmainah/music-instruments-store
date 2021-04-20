@@ -15,7 +15,7 @@
 <br>
 <h3><b>Live Demo</b></h3>
 <hr>
-<a href=" https://danmainah.github.io/music-instruments-store/">Live Demo Link</a><br>
+<a href="https://danmainah.github.io/music-instruments-store/">Live Demo Link</a><br>
 <h3><b>Getting Started</b></h3>
 <hr>
 To get a local copy up and running follow these simple example steps.
