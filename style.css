@@ -37,8 +37,8 @@ nav ul li {
 }
 
 nav ul li.items {
-  display: block;
-  align-content: left;
+  display: flex;
+  align-content: flex-start;
   width: auto;
   margin: 0 9px;
   order: 3;
@@ -66,7 +66,7 @@ nav ul li.items:hover::after {
   bottom: 8px;
 }
 
-nav ul li.logo{
+nav ul li.logo {
   flex: 1;
   color: white;
   font-size: 23px;
@@ -99,7 +99,7 @@ nav ul li.btn {
   display: none;
 }
 
-nav ul li button{
+nav ul li button {
   display: none;
 }
 
@@ -107,7 +107,8 @@ nav ul li.btn.hide i::before {
   content: '\f00d';
 }
 
-.bg-head ,.button {
+.bg-head,
+.button {
   background-color: #d35266;
 }
 
@@ -173,19 +174,21 @@ footer {
   border-bottom: 1px solid #faf7f7;
 }
 
-.icon-grey{
+.icon-grey {
   color: #383838;
 }
 
 .icon-red {
-  color:#d35266;
+  color: #d35266;
 }
+
 /* categories section */
 .mx-auto {
   max-width: 73%;
 }
 
-.bg-color {
+.bg-color,
+.icon-light {
   background-color: #888;
 }
 

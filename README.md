@@ -2,7 +2,7 @@
 <hr>
 <p>The assignment is to build a e-commerce website with homepage and search result page.</p>
 <hr>
-<img src="https://user-images.githubusercontent.com/42869046/114411509-e8f94180-9bb4-11eb-9fab-f0fb39337380.PNG">
+<img src="img/screencapture-127-0-0-1-5500-search-html-2021-04-20-19_51_53.png">
 <br>
 <p>The general purpose of the project was to practice use of Flexbox and capacity to build a responsive website.</p><br>
 <h3><b>Built with</b></h3>
