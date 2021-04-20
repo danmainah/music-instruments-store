@@ -178,6 +178,10 @@ footer {
   border-bottom: 1px solid #faf7f7;
 }
 
+.icon-grey{
+  color: #383838;
+}
+
 /* categories section */
 .mx-auto {
   max-width: 73%;
