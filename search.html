@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+</head>
+<body>
+    <header class="mb-4  bg-head" >
+        <nav CLASS=" sticky-top mb-0">
+            <ul>
+                <li class="logo" ><a href="#"><img src="img/logom.jpg" alt=""> MUSIKA </a></li>
+                <li class="items "><a href="#"><i class="fas fa-home"></i>  HOME</a></li>
+                <li class="items "><a href="#"><i class="fab fa-microsoft"> </i>  CATEGORIES</a></li>
+                <li class="items "><a href="#"><i class="fa fa-shopping-cart"> </i>  PURCHASE LIST</a></li>
+                <li class="items button"><a href="#">Post AN AD</a></li>
+                <li class="items admin bg-color">
+                    <a>
+                        <i class="far fa-envelope icon-grey mr-3 ml-5">Admin</i> <i class="fas fa-user-circle"></i>
+                    </a>
+                </li>
+                <li class="btn">
+                    <div class="dropdown btn">
+                        <button type="button" class="btn rounded-0 " data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fas fa-bars icon-light"></i>
+                        </button>
+
+                        <ul class="dropdown-menu maxwidth" >
+                          <li><a class="dropdown-item items" href="#"><i class="fas fa-home"> </i>HOME</a></li>
+                          <li><a class="dropdown-item items" href="#"><i class="fab fa-microsoft"> </i>CATEGORIES</a></li>
+                          <li><a class="dropdown-item items" href="#"><i class="fa fa-shopping-cart"> </i>PURCHASE LIST</a></li>
+                          <li><a class="dropdown-item items button" href="#">Post AN AD</a></li>
+                        </ul>
+                      </div>
+                </li>
+            </ul>
+            
+        </nav>
+       
+        <div class="jumbotron jumbotron-fluid  bg-head pt-3 mt-0">
+            <div class=" lower-header text-white container-fluid p-1 ">
+                 <div class="text-center">
+                     <h1 class=" display-4 gotham-bold ">MUSIKA SHOP</h1>
+                    <h2 class="font-weight-light gotham-light ">Buying And Selling Made Easier</h2>
+                 </div>
+            
+                <div class="search-section my-5 justify-content-center">
+                  <form action="search.html">
+                       <div class="container form">
+                          <div class="d-flex justify-content-center">
+                                <select class="form-select rounded-0 w-50 border-danger" aria-label="Default select example">
+                                     <option selected>All Categories</option>
+                                    <option value="1">Guitars</option>
+                                    <option value="2">Piano</option>
+                                    <option value="3">Drums</option>
+                                </select>
+                                <input type="email" class="form-control form-input rounded-0 w-75 border-danger" placeholder="Yamaha">
+                                <input type="email" class="form-control form-input rounded-0 w-75 border-danger" placeholder="Nairobi">
+                                <button type="submit" class="ml-4 btn btn-submit-search rounded-0 border-0">SEARCH</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="border-bottom mb-2 pb-2">
+        <div class="container">
+           <div class="row">
+               <div class="col-lg-3 d-none d-lg-block">
+                   <div class="top-search-area border-bottom mb-4">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12 col-sm-12">
+                            <input type="checkbox" value="">
+                            <label>
+                            Brand New
+                            </label>
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12">
+                            <input type="checkbox" value="">
+                            <label>
+                            Used
+                            </label>
+                        </div>
+                      </div>
+                    </div>
+                   <div class="price-search-area mb-4">
+                        <h3>Brand</h3>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item"><input type="checkbox" value=""> Yamaha</li>
+                            <li class="list-group-item"><input type="checkbox" value=""> Peavey</li>
+                            <li class="list-group-item"><input type="checkbox" value=""> Fender</li>
+                            <li class="list-group-item"><input type="checkbox" value=""> Gibson</li>
+                            <li class="list-group-item"><input type="checkbox" value="">Ludwig</li>
+                            <li class="list-group-item"><input type="checkbox" value=""> Roland</li>
+                            <li class="list-group-item"><input type="checkbox" value=""> Sonor</li>
+                        </ul>
+                   </div>
+                   <div class="price-search-area mb-4">
+                    <h3>Price Range</h3>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><input type="checkbox" value=""> 100$ - 100$</li>
+                        <li class="list-group-item"><input type="checkbox" value=""> 100$ - 200$</li>
+                        <li class="list-group-item"><input type="checkbox" value=""> 400$ - 600$</li>
+                        <li class="list-group-item"><input type="checkbox" value=""> 600$ - 800$</li>
+                        <li class="list-group-item"><input type="checkbox" value=""> 800$ - 900$</li>
+                        <li class="list-group-item"><input type="checkbox" value=""> + 1000$</li>
+                    </ul>
+               </div>
+               </div>
+               <div class="col-lg-9 col-md-12 col-sm-12 border-left border-right">
+                   <h6 class="border-bottom pb-2">138 Results for <b>"Yamaha"</b> Search at <b>"Nairobi"</b> in Category <b>"Drums"</b></h6>
+                   <div class="row border m-2 p-2 shadow">
+                       <div class="col-lg-4 col-md-12 col-sm-12">
+                        <img class="prod-img" src="img/0002667_yamaha-rydeen-5pc-drumkit-hot-red_400.jpeg" alt="bt-speaker">
+                       </div>
+                       <div class="col-lg-8 col-md-12 col-sm-12">
+                           <h3 class="helvetica-bold font-weght-bold">Yamaha D-102</h3>
+                           <p class="product-condition">New</p>
+                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet iure adipisci ex suscipit voluptas 
+                            facilis, rem aliquid sed eaque nemo sunt commodi animi magnam sit libero! Aut quae ex tenetur?</p>
+                           <div class="row">
+                               <div class="col-6">
+                                 <p class="font-weight-bold">Location: Nairobi</p>
+                                 <p>13 April 2021</p>
+                               </div>
+                               <div class="col-6 text-right pt-3">
+                                    <div class="btn-group dropup">
+                                        <button type="button" class="text-white btn btn-post-ad rounded-0 border-0 btn-sm bg-danger" data-toggle="dropdown" aria-expanded="false">
+                                            Negotiate
+                                        </button>
+                                        <span class="text-white">.  </span>
+                                        <button type="button" class="text-white btn btn-post-ad rounded-0 border-0 btn-sm bg-danger" data-toggle="dropdown" aria-expanded="false">
+                                            $499
+                                        </button>
+                                    </div>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="row border m-2 p-2 shadow">
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                     <img class="prod-img" src="img/CPK-5070-7-600x600-1.jpeg" alt="bt-speaker">
+                    </div>
+                    <div class="col-lg-8 col-md-12 col-sm-12">
+                        <h3 class="helvetica-bold font-weght-bold">Yamaha CPK-1</h3>
+                        <p class="product-condition">New</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet iure adipisci ex suscipit voluptas 
+                         facilis, rem aliquid sed eaque nemo sunt commodi animi magnam sit libero! Aut quae ex tenetur?</p>
+                        <div class="row">
+                            <div class="col-6">
+                              <p class="font-weight-bold">Location: Nairobi</p>
+                              <p>13 April 2021</p>
+                            </div>
+                            <div class="col-6 text-right pt-3">
+                                <div class="btn-group dropup">
+                                    <button type="button" class="text-white btn btn-post-ad rounded-0 border-0 btn-sm bg-danger" data-toggle="dropdown" aria-expanded="false">
+                                        Negotiate
+                                    </button>
+                                    <span class="text-white">.  </span>
+                                    <button type="button" class="text-white btn btn-post-ad rounded-0 border-0 btn-sm bg-danger" data-toggle="dropdown" aria-expanded="false">
+                                        $699
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   </div>
+                    <div class="row border m-2 p-2 shadow">
+                        <div class="col-lg-4 col-md-12 col-sm-12">
+                        <img class="prod-img" src="img/viber-image.jpg1_.jpeg" alt="bt-speaker">
+                        </div>
+                        <div class="col-lg-8 col-md-12 col-sm-12">
+                            <h3 class="helvetica-bold font-weght-bold">Yamaha C2-23</h3>
+                            <p class="product-condition">New</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet iure adipisci ex suscipit voluptas 
+                            facilis, rem aliquid sed eaque nemo sunt commodi animi magnam sit libero! Aut quae ex tenetur?</p>
+                            <div class="row">
+                                <div class="col-6">
+                                <p class="font-weight-bold">Location: Nairobi</p>
+                                <p>13 April 2021</p>
+                                </div>
+                                <div class="col-6 text-right pt-3">
+                                    <div class="btn-group dropup">
+                                        <div class="btn-group dropup">
+                                            <button type="button" class="text-white btn btn-post-ad rounded-0 border-0 btn-sm bg-danger" data-toggle="dropdown" aria-expanded="false">
+                                                Negotiate
+                                            </button>
+                                            <span class="text-white">.  </span>
+                                            <button type="button" class="text-white btn btn-post-ad rounded-0 border-0 btn-sm bg-danger" data-toggle="dropdown" aria-expanded="false">
+                                                $799
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row border m-2 p-2 shadow">
+                        <div class="col-lg-4 col-md-12 col-sm-12">
+                        <img class="prod-img" src="img/XD80USB-Behringer-1.jpeg" alt="bt-speaker">
+                        </div>
+                        <div class="col-lg-8 col-md-12 col-sm-12">
+                            <h3 class="helvetica-bold font-weght-bold">Yamaha XD80</h3>
+                            <p class="product-condition">New</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet iure adipisci ex suscipit voluptas 
+                            facilis, rem aliquid sed eaque nemo sunt commodi animi magnam sit libero! Aut quae ex tenetur?</p>
+                            <div class="row">
+                                <div class="col-6">
+                                <p class="font-weight-bold">Location: Nairobi</p>
+                                <p>13 April 2021</p>
+                                </div>
+                                <div class="col-6 text-right pt-3">
+                                    <div class="btn-group dropup">
+                                        <div class="btn-group dropup">
+                                            <button type="button" class="text-white btn btn-post-ad rounded-0 border-0 btn-sm bg-danger" data-toggle="dropdown" aria-expanded="false">
+                                                Negotiate
+                                            </button>
+                                            <span class="text-white">.  </span>
+                                            <button type="button" class="text-white btn btn-post-ad rounded-0 border-0 btn-sm bg-danger" data-toggle="dropdown" aria-expanded="false">
+                                                $1199
+                                            </button>
+                                        </div>
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+               </div>
+           </div>
+
+          </div>
+    </main>
+
+    <div>
+        <ul class="pagination justify-content-center">
+          <li class="page-item disabled">
+            <a class="page-link" href="#" tabindex="-1">Previous</a>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#">Next</a>
+          </li>
+        </ul>
+    </div>
+     <!-- descriptive section -->
+     <div class="container mx-auto">
+        <div class="d-flex row flex justify-content-center">
+            <div class="col-sm-12 col-md-3 col-lg-4">
+                <h5 class="helvetica-medium logo">
+                     <a class = "bg-color text-center text-white" href="#"><img src="img/logom.jpg" alt="">MUSIKA</a>
+                </h5><hr>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit autem magni rerum voluptates atque, quisquam illo. Repellendus cupiditate id veritatis cumque vel, fuga doloremque facilis. Cupiditate sed quod vitae dicta!
+            </div>
+
+            <div class="col-sm-12 col-md-3 col-lg-2">
+                <h5 class="helvetica-medium text-danger">Categories</h5><hr class="bg-danger">
+                        <ul class="nav-footer-links">
+                            <li><a href="#" class="p-4 text-dark">Guitars</a></li>
+                            <li><a href="#" class="p-4 text-dark">PIANO</a></li>
+                            <li><a href="#" class="p-4 text-dark">DRUMS</a></li>
+                            <li><a href="#" class="p-4 text-dark">Beatboxs</a></li>
+                        </ul>
+
+            </div>
+            <div class="col-sm-12 col-md-2 col-lg-2">
+                <h5 class="helvetica-medium text-danger">CREDITS</h5><hr class="bg-danger">
+                        <ul class="nav-footer-links">
+                            <li><a href="#" class="p-4 text-dark">Guitars</a></li>
+                            <li><a href="#" class="p-4 text-dark">PIANO</a></li>
+                            <li><a href="#" class="p-4 text-dark">DRUMS</a></li>
+                            <li><a href="#" class="p-4 text-dark">Beatboxs</a></li>
+                        </ul>
+            </div>
+
+            <div class="col-sm-12 col-md-1 col-lg-2">
+                <table class="table">
+                    <tbody>
+                      <tr>
+                        <td class="text-danger">Language</td>
+                        <td><button type="button" class="bg-white">English</button></td>
+                      </tr>
+                      <tr>
+                        <td class="text-danger" >Location</td>
+                        <td><button type="button" class="bg-white">Romania</button></td>
+                      </tr>
+                      <tr>
+                        <td class="text-danger" >Currency</td>
+                        <td><button type="button" class="bg-white">Dollars</button></td>
+                      </tr>
+                    </tbody>
+                  </table>    
+            </div>
+            
+        </div>
+    </div>     
+      <!-- footer section -->
+    <footer class="container sticky-bottom mb-1 mt-2">
+        <div class="row flex justify-content-center" >
+            <div class="col-sm-12 col-md-8 col-lg-7 text-muted">
+                <small class="form-control-sm text-center">This website is made with <span class="icon-red">&#10084;</span> by Daniel Maina @copyright 2021</small>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-5">
+                <a href="#" class="text-white p-2 "><i class="fab fa-facebook-f icon-grey"></i></a>
+                <a href="#" class="text-white p-2"><i class="fab fa-linkedin icon-grey"></i></a>
+                <a href="#" class="text-white p-2"><i class="fab fa-twitter icon-grey"></i></a>
+                <a href="#" class="text-white p-2"><i class="fab fa-google icon-grey"></i></a>
+                <a href="#" class="text-white p-2"><i class="fab fa-instagram icon-grey"></i></a>
+            </div>
+        </div>
+
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+</body>
+</html>

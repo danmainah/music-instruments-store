@@ -1,0 +1,223 @@
+/* wholepage styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+}
+
+a {
+  color: #dedee9;
+  text-decoration: none; /* no underline */
+}
+
+/* navbar styling */
+nav {
+  background: #383838;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul li {
+  cursor: pointer;
+}
+
+nav ul li.items {
+  display: flex;
+  align-content: flex-start;
+  width: auto;
+  margin: 0 9px;
+  order: 3;
+}
+
+nav ul li .admin {
+  display: flex;
+  justify-content: right;
+}
+
+nav ul li.items::after {
+  position: absolute;
+  content: '';
+  left: 0;
+  bottom: 5px;
+  height: 2px;
+  width: 100%;
+  background: #888;
+  opacity: 0;
+  transition: all 0.2s linear;
+}
+
+nav ul li.items:hover::after {
+  opacity: 1;
+  bottom: 8px;
+}
+
+nav ul li.logo {
+  flex: 1;
+  color: white;
+  font-size: 23px;
+  font-weight: 600;
+  cursor: default;
+  user-select: none;
+}
+
+nav ul li a {
+  color: white;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+.nav-footer-links a {
+  font-size: small;
+  color: #d35266;
+}
+
+nav ul li:hover a {
+  color: #888;
+}
+
+nav ul li i {
+  font-size: 1rem;
+}
+
+nav ul li.btn {
+  display: none;
+}
+
+nav ul li button {
+  display: none;
+}
+
+nav ul li.btn.hide i::before {
+  content: '\f00d';
+}
+
+.bg-head,
+.button {
+  background-color: #d35266;
+}
+
+.logo img {
+  height: 1rem;
+  width: 1.5rem;
+  padding-right: 0.1rem;
+}
+
+i .adm {
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 1rem;
+  font-size: 1rem;
+  text-align: center;
+  margin-right: 10px;
+  background: #fff;
+  line-height: 1.7em;
+}
+
+.adm img {
+  display: inline-block;
+  width: 2rem;
+  height: 1rem;
+}
+
+/* carrosel section */
+.carousel img {
+  height: 15rem;
+  width: 15rem;
+}
+
+.guitar img {
+  height: 10rem;
+  width: 8rem;
+}
+
+/* footer */
+footer {
+  text-align: center;
+}
+
+.upper-footer {
+  border-top: 2px solid #d35266;
+}
+
+.nav-footer {
+  background-color: #ece8e8;
+  border: 1px solid #b9b8b8;
+}
+
+.nav-footer-links {
+  list-style: none;
+}
+
+.prod-img,
+.hot-ad-img {
+  max-width: 100%;
+}
+
+.top-section {
+  border-bottom: 1px solid #faf7f7;
+}
+
+.icon-grey {
+  color: #383838;
+}
+
+.icon-red {
+  color: #d35266;
+}
+
+/* categories section */
+.mx-auto {
+  max-width: 73%;
+}
+
+.bg-color,
+.icon-light {
+  background-color: #888;
+}
+
+@media all and (max-width: 768px) {
+  nav {
+    padding: 5px;
+  }
+
+  nav ul li.items {
+    width: 100%;
+    display: none;
+  }
+
+  nav ul li.items.show {
+    display: block;
+  }
+
+  nav ul li.btn {
+    display: block;
+  }
+
+  nav ul li.items:hover {
+    border-radius: 5px;
+    box-shadow:
+      inset 0 0 5px #888,
+      inset 0 0 10px #888;
+  }
+
+  nav ul li.items:hover::after {
+    opacity: 0;
+  }
+}
