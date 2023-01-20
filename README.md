@@ -1,3 +1,6 @@
+![](https://img.shields.io/badge/HTML-orange)
+![](https://img.shields.io/badge/CSS-purple)
+
 <h2><b>Music-Instruments Store</b></h2>
 <hr>
 <p>The assignment is to build a e-commerce website with homepage and search result page.</p>
